@@ -1,0 +1,11 @@
+{ "manifest_version": 2, 
+    "name": "Reliable Source Checker", 
+    "description": "Checks the Url's of every website shown on search page and puts a check/cross mark indicating a reliable or unreliable source", 
+    "version": "1.0.0", 
+    "icons": { "19": "logo_19.png", "128": "logo_128.png" }, 
+    "browser_action": { 
+        "default_icon": "images/squarereliable.png", 
+        "default_popup": "popup.html" 
+    }, 
+    "permissions":  ["activeTab"] 
+ }

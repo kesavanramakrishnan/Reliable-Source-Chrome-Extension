@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8" /> 
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+        <link href="style.css" rel="stylesheet"> 
+        <script src="popup.js" defer></script>
+        <title>Reliable Source Checker</title> 
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> 
+    </head> 
+    <body> 
+        <div class="modal-header">
+            <h1 class="logo">
+                <img src="logo_128.png" alt="Reliable Source" class="logo-icon">Reliable Source 
+            </h1>
+            <p id="version">Version: 1.0.0</p>
+        </div>
+        <div class="modal-content">
+            <p>Easily discern Reliable Sources</p>
+        </div>
+    <div id="sliderHolder">
+        <p id="powerP">Power:</p>
+        <label class="switch">
+            <input type="checkbox" id="onOffSlider">
+            <span class="slider round" id="sliderVal"></span>
+        </label>
+    </div>
+        <div id="conDisP" class="disconnected">Disconnected</div>
+        <audio id="connectA" src="Cash Register.mp3"></audio>
+        <audio id="discA" src="Glass Breaking.mp3"></audio>
+    </body> 
+    </html>
